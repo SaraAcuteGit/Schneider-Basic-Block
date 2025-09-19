@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DDTExchangeFile>
+	<fileHeader company="Schneider Automation" product="Control Expert V14.0 - 190112" dateTime="date_and_time#2025-9-18-8:11:52" content="Derived Data Type source file" DTDVersion="41"></fileHeader>
+	<contentHeader name="Project" version="0.0.12" dateTime="date_and_time#2025-9-18-8:13:8"></contentHeader>
+	<DDTSource DDTName="DDT_PUMP" version="0.08" dateTime="dt#2025-09-18-06:21:53">
+		<attribute name="TypeSignatureCheckSumString" value="DB3A"></attribute>
+		<structure>
+			<variables name="Avail_Sts" typeName="BOOL"></variables>
+			<variables name="EStop_Sts" typeName="BOOL"></variables>
+			<variables name="Remote_Sts" typeName="BOOL"></variables>
+			<variables name="Auto_Sts" typeName="BOOL"></variables>
+			<variables name="Run_Sts" typeName="BOOL"></variables>
+			<variables name="Trip_Sts" typeName="BOOL"></variables>
+			<variables name="Interlock_Sts" typeName="BOOL"></variables>
+			<variables name="Fail_to_Run_Alm" typeName="BOOL"></variables>
+			<variables name="Fail_to_Stop_Alm" typeName="BOOL"></variables>
+			<variables name="ABE_Alm" typeName="BOOL"></variables>
+			<variables name="Speed_Mismatch_Alm" typeName="BOOL"></variables>
+			<variables name="Com_Fault_Alm" typeName="BOOL"></variables>
+			<variables name="Auto_Man" typeName="BOOL"></variables>
+			<variables name="Man_Start" typeName="BOOL"></variables>
+			<variables name="Man_Stop" typeName="BOOL"></variables>
+			<variables name="ABE_Alm_Enbl" typeName="BOOL"></variables>
+			<variables name="Start_Cmd" typeName="BOOL"></variables>
+			<variables name="Cmd_Out" typeName="BOOL"></variables>
+			<variables name="Simulation" typeName="BOOL"></variables>
+			<variables name="Maint_Mode" typeName="BOOL"></variables>
+			<variables name="Fault_Reset" typeName="BOOL"></variables>
+			<variables name="RunTime_Reset" typeName="BOOL"></variables>
+			<variables name="Feedback" typeName="REAL"></variables>
+			<variables name="Man_Speed_Sp" typeName="REAL"></variables>
+			<variables name="Speed_Out" typeName="REAL"></variables>
+			<variables name="FailToRun_Sp" typeName="DINT"></variables>
+			<variables name="FailToStop_Sp" typeName="DINT"></variables>
+			<variables name="Run_Min" typeName="UDINT"></variables>
+			<variables name="Run_Hr" typeName="UDINT"></variables>
+			<variables name="Run_Day" typeName="UDINT"></variables>
+		</structure>
+	</DDTSource>
+</DDTExchangeFile>
